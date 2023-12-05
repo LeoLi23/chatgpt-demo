@@ -105,13 +105,13 @@ export default function Home() {
           value={userInput}
           onChange={(e) => setUserInput(e.target.value)}
           onKeyDown={(e) => e.key === 'Enter' && sendMessage(userInput)}
-          placeholder="Message ChatGPT..."
+          placeholder="请输入您的问题..."
         />
         <button
           className={styles.sendButton}
           onClick={() => sendMessage(userInput)}
         >
-          Send
+          发送
         </button>
       </div>
     </div>

@@ -41,12 +41,13 @@
 }
 
 .inputContainer {
+  width: 80%;
   display: flex;
   border-top: 1px solid #333;
   padding: 0;
   background-color: #1a1a1a; /* Match the chatbox color */
   border-radius: 20px;
-  margin: 20px 20px; /* Added margin to the left and right */
+  margin: 20px auto; /* Added margin to the left and right */
 }
 
 .messageInput {
